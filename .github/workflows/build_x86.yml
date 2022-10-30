@@ -12,7 +12,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - { sys: mingw64, arch: 64bit, env: x86_64 }
           - { sys: mingw32, arch: 32bit, env: i686 }
     
     defaults:
