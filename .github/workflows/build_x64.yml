@@ -33,7 +33,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          repository: pyinstaller/pyinstaller
+          repository: observeroftime01/pyinstaller-patch
           ref: v5.11.0
 
       - name: Build bootloader
