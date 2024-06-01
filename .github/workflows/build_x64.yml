@@ -34,7 +34,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: observeroftime01/pyinstaller-patch
-          ref: v6.1.0
+          ref: v6.7.0
 
       - name: Build bootloader
         run: |
