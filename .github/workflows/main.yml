@@ -92,7 +92,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: pyinstaller/pyinstaller
+          repository: observeroftime01/pyinstaller-patch
           ref: ${{ inputs.ref }}
 
       - name: Build bootloader
